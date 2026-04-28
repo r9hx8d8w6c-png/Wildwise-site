@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — WildWise Management | 781-796-2390</title>
+  <meta name="description" content="Contact WildWise Management for humane wildlife removal across Boston's North Shore. 24/7 live response. Call 781-796-2390 or email us.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,0..100;1,9..144,300..700,0..100&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a href="index.html" class="logo">
+      <span class="logo-mark"><span class="logo-wild">WILD</span><span class="logo-wise">WISE</span></span>
+      <span class="logo-tag">Management</span>
+    </a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="tel:+17817962390" class="nav-cta">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      781-796-2390
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span></button>
+  </div>
+</header>
+
+<section class="page-header">
+  <div class="wrap">
+    <span class="eyebrow">Get in touch</span>
+    <h1>Wildlife emergency? <em>Call now.</em></h1>
+    <p class="lede">Phone is fastest — we answer 24/7. For non-urgent inspections, the form below works just as well and we'll get back to you the same day.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap contact-grid">
+    <div class="contact-info">
+      <span class="eyebrow">Direct line</span>
+      <a href="tel:+17817962390" class="big-phone">781-796-2390</a>
+      <p>Call or text. Live response 24 hours a day for active wildlife emergencies. For routine inspections and exclusion estimates, daytime is best.</p>
+
+      <div class="contact-list">
+        <div class="item">
+          <span class="label">Email</span>
+          <a href="mailto:Wildwisemanagement@gmail.com" class="value" style="text-decoration: none;">Wildwisemanagement@gmail.com</a>
+        </div>
+        <div class="item">
+          <span class="label">Based in</span>
+          <span class="value">Wakefield, Massachusetts</span>
+        </div>
+        <div class="item">
+          <span class="label">Service area</span>
+          <span class="value">Boston's North Shore</span>
+        </div>
+        <div class="item">
+          <span class="label">Hours</span>
+          <span class="value">24/7 emergency response</span>
+        </div>
+        <div class="item">
+          <span class="label">Licensing</span>
+          <span class="value">MA Problem Animal Control Agent</span>
+        </div>
+      </div>
+    </div>
+
+    <form class="contact-form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <h3>Send a message</h3>
+      <p class="form-lede">Tell us what you're hearing, seeing, or smelling. We'll get back to you the same day.</p>
+
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="field">
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" required>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="field">
+        <label for="town">Town</label>
+        <input type="text" id="town" name="town" placeholder="e.g. Wakefield, MA">
+      </div>
+      <div class="field">
+        <label for="issue">Issue type</label>
+        <select id="issue" name="issue">
+          <option>Not sure — need to identify</option>
+          <option>Bats</option>
+          <option>Raccoons</option>
+          <option>Squirrels</option>
+          <option>Skunks</option>
+          <option>Mice / Rats</option>
+          <option>Groundhogs</option>
+          <option>Beavers</option>
+          <option>Opossums / Moles</option>
+          <option>Multiple / Other</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="message">What's going on?</label>
+        <textarea id="message" name="message" placeholder="Where you're seeing or hearing them, how long it's been happening, and anything else helpful." required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-amber">
+        Send message
+        <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+      </button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo logo--light">
+          <span class="logo-mark"><span class="logo-wild">WILD</span><span class="logo-wise">WISE</span></span>
+          <span class="logo-tag">Management</span>
+        </div>
+        <p>Humane wildlife removal &amp; durable exclusion across Boston's North Shore. Licensed Massachusetts Problem Animal Control.</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#bats">Bats</a></li>
+          <li><a href="services.html#raccoons">Raccoons</a></li>
+          <li><a href="services.html#squirrels">Squirrels</a></li>
+          <li><a href="services.html#skunks">Skunks</a></li>
+          <li><a href="services.html#mice">Mice &amp; Rats</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+17817962390">781-796-2390</a></li>
+          <li><a href="mailto:Wildwisemanagement@gmail.com">Email us</a></li>
+          <li>Wakefield, MA</li>
+          <li>Boston's North Shore</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> WildWise Management. All rights reserved.</span>
+      <span>Licensed MA Problem Animal Control Agent</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
